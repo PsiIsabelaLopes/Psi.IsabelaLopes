@@ -9,8 +9,8 @@
     /*Purple 260 - Red 355 - Blue 224 - Pink 340*/
     /* HSL color mode */
     --hue-color: 224;
-    --first-color: #804D1B;
-    --second-color: #ccae86;
+    --first-color: #684F36;
+    --second-color: #957336;
     /*===== Font typography =====*/
     --body-font: 'Poppins', sans-serif;
     --big-font-size: 2rem;
@@ -25,7 +25,7 @@
     /*===== z index =====*/
     --z-back: -10;
     --z-fixed: 100;
-    background-color: #FFFBF5;
+    background-color: #F5EFE1;
 }
 
 @media screen and (min-width: 968px) {
@@ -106,6 +106,7 @@ img {
     display: grid;
     margin-left: var(--mb-2);
     margin-right: var(--mb-2);
+    align-items: start;
 }
 
 .l-header {
@@ -114,7 +115,7 @@ img {
     top: 0;
     left: 0;
     z-index: var(--z-fixed);
-    background-color: #fff;
+    background-color: #F5EFE1;
     box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
 }
 
@@ -527,6 +528,13 @@ img {
         column-gap: 2rem;
         align-items: center;
         text-align: initial;
+    }
+
+    .button_container{
+        margin-top: 80px;
+        column-gap: 2rem;
+        align-items: center;
+        text-align: center;
     }
     .work__container {
         grid-template-columns: repeat(3, 1fr);
