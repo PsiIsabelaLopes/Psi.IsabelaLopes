@@ -129,6 +129,9 @@ img {
 }
 
 @media screen and (max-width: 767px) {
+    .button-fds{
+        margin-top: 40px
+    }
     .nav__menu {
         position: fixed;
         top: var(--header-height);
@@ -265,6 +268,7 @@ img {
 
 .about__subtitle {
     margin-bottom: var(--mb-2);
+    
 }
 
 .about__img {
@@ -288,6 +292,7 @@ img {
 }
 
 .skills__text {
+    text-align: justify;
     margin-bottom: var(--mb-4);
 }
 
@@ -543,6 +548,12 @@ img {
 }
 
 @media screen and (min-width: 992px) {
+    .bd-button{
+        margin-top: 80px;
+        column-gap: 2rem;
+        align-items: center;
+        text-align: center;
+    }
     .bd-grid {
         margin-left: auto;
         margin-right: auto;
