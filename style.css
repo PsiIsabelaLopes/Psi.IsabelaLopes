@@ -115,7 +115,8 @@ img {
     top: 0;
     left: 0;
     z-index: var(--z-fixed);
-    background-color: #F5EFE1;
+    color: #F5EFE1;
+    background-color: #957336; 
     box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
 }
 
@@ -139,7 +140,8 @@ img {
         width: 80%;
         height: 100%;
         padding: 2rem;
-        background-color: var(--second-color);
+        color:#F5EFE1;
+        background-color: #684F36;
         transition: .5s;
     }
 }
@@ -150,7 +152,7 @@ img {
 
 .nav__link {
     position: relative;
-    color: #fff;
+    color: #F5EFE1;
 }
 
 .nav__link:hover {
@@ -164,15 +166,15 @@ img {
     height: 0.18rem;
     left: 0;
     top: 2rem;
-    background-color: var(--first-color);
+    background-color: #F5EFE1;
 }
 
 .nav__logo {
-    color: var(--second-color);
+    color:#F5EFE1;
 }
 
 .nav__toggle {
-    color: var(--second-color);
+    color: #F5EFE1;
     font-size: 1.5rem;
     cursor: pointer;
 }
@@ -513,7 +515,7 @@ img {
         display: none;
     }
     .nav__link {
-        color: var(--second-color);
+        color: #F5EFE1;
     }
     .home {
         padding: 8rem 0 2rem;
